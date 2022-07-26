@@ -1,8 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-from webdriver_manager.chrome import ChromeDriverManager
 import time
-import webbrowser
 
 browser = webdriver.Chrome(
     executable_path='C:/chromedriver/chromedriver.exe')

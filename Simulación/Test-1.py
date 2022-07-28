@@ -16,5 +16,3 @@ WebDriverWait(browser, 10).until(EC.alert_is_present())
 browser.switch_to.alert.accept()
 
 browser.get('https://www.demoblaze.com/cart.html')
-product_btn = browser.find_element(By.CSS_SELECTOR, 'button.btn-success')
-
